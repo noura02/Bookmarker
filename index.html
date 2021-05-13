@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="bookmarker project">
+    <meta name="keywords" content="HTML, CSS, JavaScript, bootstrap, bookmarker">
+    <meta name="author" content="Nourhan Muhamed">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Bookmarker</title>
+</head>
+<body>
+    <h1 class="text-center  mt-5 ">Bookmarker</h1>
+
+    <section class="d-flex justify-content-center align-items-center sec-1 position-relative">
+
+        <div class="container  p-3 " id="main-sec">
+
+            <h4 class="text-center my-4">
+                Bookmark your favorite sites
+            </h4>
+
+
+            <div class="m-auto w-75  text-center p-2">
+                <h5>Site Name</h5>
+                <input placeholder="Bookmark Name" class="form-control is-valid" id="name" />
+                <div class="text-dark d-none m-2 bold" id="alert-1">
+                    Name is incorrect
+
+                </div>
+            </div>
+
+            <div class="m-auto w-75 text-center p-2 ">
+                <h5>Site URL</h5>
+                <input placeholder="Website URL" class="form-control is-valid" id="url" />
+                <div class=" text-dark d-none m-2 bold" id="alert-2">
+                    URL is incorrect
+                </div>
+            </div>
+
+
+            <div class="text-center my-3">
+                <button class="btn px-4 " id="submitBtn">Submit</button>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+
+     <div class="animie" id="scrollBtn">
+         <a href="#links"></a>
+     </div>
+
+
+    <section class="d-flex justify-content-center align-items-center sec-2 my-4">
+        <div class="container">
+            <div id="links" class="mb-5">
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="py-3 px-2 mt-5 text-center">Copyright &#169 2021 designed by Nourhan Muhamed. All rights reserved</footer>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

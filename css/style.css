@@ -1,0 +1,100 @@
+html {
+    scroll-behavior: smooth;
+}
+.bold{
+    font-weight:bold
+}
+.sec-1 {
+    height:80vh;
+}
+   .sec-1 button {
+        border: solid #F2F2F2 3px;
+        color:#f2f2f2;
+        border-radius:20px;
+        transition:all 0.6s;
+    }
+input{
+    width:80%;
+}
+#links i {
+ 
+}
+.sec-1 .container {
+    background-color: #D96277;
+    border-radius:20px;
+}
+h4 {
+    color:#F2F2F2
+}
+h5 {
+    color: #20788C;
+    font-size:16px;
+}
+h1 {
+    color: #20788C;
+    font-size: 50px;
+    position:relative;
+}
+h1::before {
+    content: 'Bookmarker';
+    position: absolute;
+    top: -50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgba(128, 180, 191,0.2);
+    font-size:80px;
+ }
+body {
+    background-color: #F2F2F2;  
+}
+
+.animie a{
+    height: 35px;
+    width: 20px;
+    border: solid #80B4BF 3px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: move 0.5s infinite;
+    animation-direction: alternate;
+    top:93%
+    
+}
+
+
+@keyframes move{
+    0%{
+        top:95%
+    }
+   
+    100%{
+        top:93%;
+    }
+
+}
+
+.sec-2 h3 {
+    color: #BF3B3B;
+    font-size: 18px;
+}
+.sec-2 .container{
+    width:50%;
+}
+.data{
+    border-bottom:solid 1px #aaa;
+}
+.sec-2 i {
+    color: #80B4BF;
+    cursor:pointer;
+    transition:all 0.6s;
+}
+.sec-2 i:hover {
+    color: #20788C;
+}
+footer{
+    color:dimgrey;
+    font-size:14px;
+}
+
+
